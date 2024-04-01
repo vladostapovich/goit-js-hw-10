@@ -88,9 +88,7 @@ flatpickr(inputData, options);
 startButton.addEventListener('click', () => {
   if (userDate) {
     startTimer();
-
     inputData.disabled = true;
   }
 });
-
 startButton.disabled = true;
