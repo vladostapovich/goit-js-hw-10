@@ -90,5 +90,5 @@ startButton.addEventListener('click', () => {
     startTimer();
     inputData.disabled = true;
   }
+  startButton.disabled = true;
 });
-startButton.disabled = true;
